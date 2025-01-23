@@ -83,13 +83,3 @@ cypress/results/
 *.docx
 *.xlsx
 *.pptx
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.mp3
-*.wav
-*.avi
-*.mov
-*.mp4
