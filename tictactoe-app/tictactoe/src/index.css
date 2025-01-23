@@ -1,29 +1,23 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color: #e0e0e0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
   font-weight: 500;
-  color: #0c0f47;
+  color: #ff00ff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #3b3f7c;
+  color: #00ffff;
 }
 
 * {
@@ -33,108 +27,55 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #1f1f1f);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color:#00ffff;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 22px;
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-shadow: 0 0 5px #01afaf, 0 0 10px #00ffffa8, 0 0 20px #00ffffa8;
 }
 
 h2 {
-  margin-top: 0;
   font-size: 20px;
 }
 
 h3 {
-  margin-top: 0;
   font-size: 18px;
 }
 
 h4 {
-  margin-top: 0;
   font-size: 16px;
 }
 
 h5 {
-  margin-top: 0;
   font-size: 14px;
 }
 
 h6 {
-  margin-top: 0;
   font-size: 12px;
-}
-
-code {
-  font-size: 1.2em;
 }
 
 ul {
   padding-inline-start: 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-ol{
+ol {
   list-style: none;
   padding: 0;
 }
 
 li::before {
   content: "▶";
-  color: grey;
+  color: #00ffff;
   margin-right: 10px;
-}
-
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  color:#000000;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
-}
-
-.board-row:after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.status {
-  margin-bottom: 10px;
-}
-
-.game {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; /* Horizontal zentrieren */
-  align-items: center;    /* Vertikal zentrieren */
-  height: 100vh;          /* Volle Höhe des Viewports */
-}
-
-
-.game-info {
-  margin-left: 20px;
-}
-
-.winning {
-  background-color: rgb(61, 102, 61);
-  color: white;
 }

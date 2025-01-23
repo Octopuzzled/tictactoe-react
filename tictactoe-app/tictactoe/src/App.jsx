@@ -66,8 +66,11 @@ if (winner) {
 
   return (
     <>
+      <h1>Tic Tac Toe</h1>
       <div className="status">{status}</div>
-      {renderBoard()}
+      <div className="game">
+        {renderBoard()}
+      </div>
     </>
   );
 }
