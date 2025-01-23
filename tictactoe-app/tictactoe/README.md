@@ -13,7 +13,7 @@ This is a simple Tic-Tac-Toe game project created to learn React and Vite. The p
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/tictactoe-app.git
+   git clone https://github.com/octopuzzled/tictactoe-app.git
    ```
 
 2. Navigate to the project directory:
